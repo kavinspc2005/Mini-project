@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    margin-top: 70px;
+    shape-margin: 100px;
+    text-align: center;
+    background-color: rosybrown;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#score{
+    font-size: 20px 30px;
+    margin: 10px;
+}
+
+.button{
+    background-color: blue;
+}
+</style>
+<body>
+    <center>
+         <h2 style="color: chartreuse;">Counter game</h2>
+    <p>Score:<span  id="score">0</span></p>
+    <button onclick="increaseScore()" style="color: blue; cursor: pointer;">Click me!</button>
+    </center>
+   
+
+    <script>
+        let score=0;
+        function increaseScore(){
+        score++;
+        document.getElementById("score").innerText=score;
+        }
+    </script>
+</body>
+</html>
