@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    margin-top: 150px;
+    transform: 0.5s;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
+
+.dark{
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+button{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.clock{
+    font-size: 30px;
+    margin-top: 20px;
+}
